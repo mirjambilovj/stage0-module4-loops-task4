@@ -10,7 +10,7 @@ public class TwoRangesSum {
             System.out.println("number to skip is bugger then the last");
         } else {
             for (int i = 0; i <= numberToSkip; i++) {
-                sum1 = sum1 + i;
+                sum1=sum1+i;
             }
             for (int l = 0; l <= lastInRow; l++) {
                 sum2 = sum2 + l;
